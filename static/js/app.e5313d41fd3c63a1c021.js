@@ -168,7 +168,7 @@ webpackJsonp([5], {
         },
         gitHubUser: null,
         gitHubUsername: "geekyouth",
-        copyright: "1970 - 2048",
+        copyright: "",
         recordNumber: "",
         repo: "geekyouth/geekyouth.github.io",
         pageSize: 10,
@@ -206,7 +206,7 @@ webpackJsonp([5], {
           return t.repo
         },
         gitHubUser: function (t) {
-          return t.gitHubUser
+          return ''
         },
         showQQGroup: function (t) {
           return t.showQQGroup
