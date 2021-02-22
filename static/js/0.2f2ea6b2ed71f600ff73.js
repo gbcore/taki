@@ -128,6 +128,10 @@ webpackJsonp([0], {
       mounted: function () {
         var e = this;
         this.$nextTick(function () {
+          console.log(this.activeLabel)
+          console.log(this.keyword)
+          console.log(this.currentPage)
+          console.log(this.pageSize)
           e.getIssues()
         })
       }
