@@ -240,42 +240,7 @@ webpackJsonp([1], {
         var e = this,
           t = e.$createElement,
           n = e._self._c || t;
-        return n("div", {staticClass: "add-comment-container"}, [n("div", {staticClass: "tab-container"}, [n("ul", [n("li", {
-          class: e.isWrite ? "active" : "",
-          on: {
-            click: function (t) {
-              e.isWrite = !0
-            }
-          }
-        }, [e._v("Write")]), e._v(" "), n("li", {
-          class: e.isWrite ? "" : "active",
-          on: {click: e.renderMarkdown}
-        }, [e._v("Preview")])]), e._v(" "), null == e.accessToken ? n("div", [n("a", {attrs: {href: e.loginLink}}, [e._v("Login")]), e._v(" with GitHub\n    ")]) : e._e()]), e._v(" "), e.isWrite ? n("textarea", {
-          directives: [{
-            name: "model",
-            rawName: "v-model",
-            value: e.newComment,
-            expression: "newComment"
-          }],
-          attrs: {
-            disabled: null == e.accessToken,
-            rows: "5",
-            placeholder: "说点什么？「支持 MarkDown 语法」"
-          },
-          domProps: {value: e.newComment},
-          on: {
-            input: function (t) {
-              t.target.composing || (e.newComment = t.target.value)
-            }
-          }
-        }) : n("article", {
-          staticClass: "markdown-body",
-          domProps: {innerHTML: e._s(e.renderedMarkdown)}
-        }), e._v(" "), n("button", {
-          staticClass: "add-comment-btn",
-          attrs: {disabled: e.commentBtnDisabled},
-          on: {click: e.addComment}
-        }, [e._v("Comment\n  ")])])
+        return n("br", [n("br"), e._v(""),])
       },
       staticRenderFns: []
     }
