@@ -169,7 +169,7 @@ webpackJsonp([5], {
         gitHubUser: null,
         gitHubUsername: "geekyouth",
         copyright: "1970 - 2048",
-        recordNumber: "null",
+        recordNumber: "",
         repo: "geekyouth/geekyouth.github.io",
         pageSize: 10,
         showQQGroup: !1,
