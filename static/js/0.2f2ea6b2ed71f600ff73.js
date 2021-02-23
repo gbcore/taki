@@ -116,7 +116,7 @@ webpackJsonp([0], {
         getIssues: function () {
           var e = this;
           this.isNoData = !1, this.$gitHubApi.getIssues(this, {
-            label: this.activeLabel ? this.activeLabel.name : "",
+            label: this.activeLabel ? this.activeLabel.name : (this.$route.query.tag ? this.$route.query.tag : ""),
             keyword: this.keyword,
             currentPage: this.currentPage,
             pageSize: this.pageSize
@@ -128,10 +128,7 @@ webpackJsonp([0], {
       mounted: function () {
         var e = this;
         this.$nextTick(function () {
-          console.log(this.activeLabel)
-          console.log(this.keyword)
-          console.log(this.currentPage)
-          console.log(this.pageSize)
+          this.keyword = (this.$route.query.s ? this.$route.query.s : "")
           e.getIssues()
         })
       }
