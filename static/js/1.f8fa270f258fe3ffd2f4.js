@@ -9,7 +9,7 @@ webpackJsonp([1], {
   },
   829: function (e, t, n) {
     "use strict";
-    Object.defineProperty(t, "__esModule", {value: !0});
+    Object.defineProperty(t, "__esModule", { value: !0 });
     var o = n(128),
       i = n.n(o),
       a = n(86);
@@ -68,9 +68,9 @@ webpackJsonp([1], {
   },
   830: function (e, t, n) {
     "use strict";
-    Object.defineProperty(t, "__esModule", {value: !0}), t.default = {
+    Object.defineProperty(t, "__esModule", { value: !0 }), t.default = {
       data: function () {
-        return {renderedMarkdown: ""}
+        return { renderedMarkdown: "" }
       },
       props: ["comment"],
       methods: {
@@ -91,7 +91,7 @@ webpackJsonp([1], {
   },
   835: function (e, t, n) {
     "use strict";
-    Object.defineProperty(t, "__esModule", {value: !0});
+    Object.defineProperty(t, "__esModule", { value: !0 });
     var o = n(128),
       i = n.n(o),
       a = n(86),
@@ -159,7 +159,7 @@ webpackJsonp([1], {
     t = e.exports = n(818)(!1), t.push([e.i, ".add-comment-container[data-v-6b121476]{display:-ms-flexbox;display:flex;-ms-flex-direction:column;flex-direction:column;border-radius:4px;border:0px solid #eee;margin:10px 0}.add-comment-container .tab-container[data-v-6b121476]{padding:0 10px;border-bottom:1px solid #eee;background-color:#f9fafc;display:-ms-flexbox;display:flex}.add-comment-container .tab-container ul[data-v-6b121476]{margin-top:8px;list-style:none;display:-ms-flexbox;display:flex;-ms-flex-positive:1;flex-grow:1;margin-right:10px}.add-comment-container .tab-container li[data-v-6b121476]{padding:10px;font-size:14px;cursor:pointer;margin-bottom:-1px;color:#586069;-webkit-user-select:none;-ms-user-select:none;user-select:none}.add-comment-container .tab-container li.active[data-v-6b121476]{color:#24292e;background-color:#fff;border-top-left-radius:4px;border-top-right-radius:4px;border-top:1px solid #eee;border-left:1px solid #eee;border-right:1px solid #eee}.add-comment-container .tab-container div[data-v-6b121476]{-ms-flex-negative:0;flex-shrink:0;display:-ms-flexbox;display:flex;-ms-flex-align:center;align-items:center;-webkit-user-select:none;-ms-user-select:none;user-select:none}.add-comment-container .tab-container div a[data-v-6b121476]{color:#2196f3}.add-comment-container .tab-container div a[data-v-6b121476]:hover{text-decoration:underline}.add-comment-container textarea[data-v-6b121476]{margin:10px;border-radius:3px;padding:15px 30px 15px 15px;border:1px solid #eee;background-color:#fff;font-size:14px;color:#4b595f;outline:none}.add-comment-container textarea[data-v-6b121476]:disabled{cursor:not-allowed}.add-comment-container .markdown-body[data-v-6b121476]{margin:15px;min-height:107px}.add-comment-container .add-comment-btn[data-v-6b121476]{cursor:pointer;-webkit-user-select:none;-ms-user-select:none;margin:0 15px 15px 0;border-radius:4px;float:right;background-color:#34d058;color:#fff;-ms-flex-item-align:end;align-self:flex-end;padding:8px 12px;font-size:14px;font-weight:600;line-height:20px;white-space:nowrap;vertical-align:middle;user-select:none;border:none;outline:none}.add-comment-container .add-comment-btn[data-v-6b121476]:hover{background-color:#34c058}.add-comment-container .add-comment-btn[data-v-6b121476]:disabled{background-color:#94d3a2;cursor:not-allowed}.width-match-parent-btn[data-v-6b121476]{cursor:pointer;-webkit-user-select:none;-ms-user-select:none;user-select:none;margin:30px 0;height:50px;line-height:50px;text-align:center;border-radius:4px;font-size:16px;background-color:#eff7ff;color:#3593f2}.width-match-parent-btn[data-v-6b121476]:hover{background-color:#3593f2;color:#fff}", ""])
   },
   844: function (e, t, n) {
-    t = e.exports = n(818)(!1), t.push([e.i, ".comment[data-v-a93029d2]{margin-top:30px;border-radius:4px;border:1px solid #eee}.comment-title[data-v-a93029d2]{height:48px;line-height:48px;background-color:#f9fafc;border-bottom:1px solid #eee;padding:0 30px}.comment-title div[data-v-a93029d2]{cursor:pointer;float:left}.comment-title div img[data-v-a93029d2]{float:left;width:30px;height:30px;margin-top:9px;border-radius:15px;margin-right:12px}.comment-title div span[data-v-a93029d2]{font-size:14px;color:#4b595f}.comment-title .time[data-v-a93029d2]{float:right;margin-right:20px;font-size:12px;color:#849aa4}.comment-body[data-v-a93029d2]{padding:15px;font-size:14px}", ""])
+    t = e.exports = n(818)(!1), t.push([e.i, ".comment[data-v-a93029d2]{margin-top:30px;border-radius:4px;border:1px solid #eee}.comment-title[data-v-a93029d2]{display:none;height:48px;line-height:48px;background-color:#f9fafc;border-bottom:1px solid #eee;padding:0 30px}.comment-title div[data-v-a93029d2]{cursor:pointer;float:left}.comment-title div img[data-v-a93029d2]{float:left;width:30px;height:30px;margin-top:9px;border-radius:15px;margin-right:12px}.comment-title div span[data-v-a93029d2]{font-size:14px;color:#4b595f}.comment-title .time[data-v-a93029d2]{float:right;margin-right:20px;font-size:12px;color:#849aa4}.comment-body[data-v-a93029d2]{padding:15px;font-size:14px}", ""])
   },
   849: function (e, t, n) {
     var o = n(841);
@@ -201,11 +201,11 @@ webpackJsonp([1], {
         var e = this,
           t = e.$createElement,
           o = e._self._c || t;
-        return e.issue ? o("div", {staticClass: "blog-detail-container"}, [o("div", {staticClass: "title-container"}, [o("span", {staticClass: "title"}, [e._v(e._s(e.issue.title))]), e._v(" "), o("ul", e._l(e.issue.labels, function (t) {
+        return e.issue ? o("div", { staticClass: "blog-detail-container" }, [o("div", { staticClass: "title-container" }, [o("span", { staticClass: "title" }, [e._v(e._s(e.issue.title))]), e._v(" "), o("ul", e._l(e.issue.labels, function (t) {
           return o("li", {
             key: t.id,
             staticClass: "tag tag-small",
-            style: {backgroundColor: "#" + t.color},
+            style: { backgroundColor: "#" + t.color },
             on: {
               click: function (n) {
                 return e.setActiveLabel(t)
@@ -214,21 +214,21 @@ webpackJsonp([1], {
           }, [e._v(e._s(t.name) + "\n      ")])
         }), 0), e._v(" "), o("span", {
           staticClass: "back",
-          on: {click: e.back}
+          on: { click: e.back }
         }, [o("img", {
           staticClass: "back-icon",
-          attrs: {src: n(853)}
+          attrs: { src: n(853) }
         }), e._v("返回\n    ")])]), e._v(" "), o("div", {
           ref: "commentContainer",
           staticClass: "comment-container bga-back-top"
-        }, [o("comment", {attrs: {comment: e.issue}}), e._v(" "), e._l(e.comments, function (e) {
+        }, [o("comment", { attrs: { comment: e.issue } }), e._v(" "), e._l(e.comments, function (e) {
           return o("comment", {
             key: e.id,
-            attrs: {comment: e}
+            attrs: { comment: e }
           })
         }), e._v(" "), o("add-comment", {
-          attrs: {commentsUrl: e.issue.comments_url},
-          on: {addCommentSuccess: e.handleAddCommentSuccess}
+          attrs: { commentsUrl: e.issue.comments_url },
+          on: { addCommentSuccess: e.handleAddCommentSuccess }
         })], 2)]) : e._e()
       },
       staticRenderFns: []
@@ -240,7 +240,7 @@ webpackJsonp([1], {
         var e = this,
           t = e.$createElement,
           n = e._self._c || t;
-        return n("div", {staticClass: "add-comment-container"})
+        return n("div", { staticClass: "add-comment-container" })
       },
       staticRenderFns: []
     }
@@ -251,15 +251,15 @@ webpackJsonp([1], {
         var e = this,
           t = e.$createElement,
           n = e._self._c || t;
-        return n("div", {staticClass: "comment"}, [n("div", {staticClass: "comment-title"}, [n("div", {
+        return n("div", { staticClass: "comment" }, [n("div", { staticClass: "comment-title" }, [n("div", {
           on: {
             click: function (t) {
-              return "library.gokudobar.monster"
+              return "taki.gokudobar.monster"
             }
           }
-        }), e._v(" "), n("span", {staticClass: "time"}, [e._v(e._s(e.$moment(e.comment.created_at).format("YYYY-MM-DD HH:mm")))])]), e._v(" "), n("article", {
+        },[n("img", {attrs: {src: e.comment.user.avatar_url}})]), e._v(" "), n("span", { staticClass: "time" }, [e._v(e._s(e.$moment(e.comment.created_at).format("YYYY-MM-DD HH:mm")))])]), e._v(" "), n("article", {
           staticClass: "comment-body markdown-body",
-          domProps: {innerHTML: e._s(e.renderedMarkdown)}
+          domProps: { innerHTML: e._s(e.renderedMarkdown) }
         })])
       },
       staticRenderFns: []

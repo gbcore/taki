@@ -21,7 +21,7 @@ webpackJsonp([0], {
   },
   832: function (e, t, a) {
     "use strict";
-    Object.defineProperty(t, "__esModule", {value: !0}), t.default = {
+    Object.defineProperty(t, "__esModule", { value: !0 }), t.default = {
       props: {
         totalNum: {
           type: Number,
@@ -80,7 +80,7 @@ webpackJsonp([0], {
   },
   836: function (e, t, a) {
     "use strict";
-    Object.defineProperty(t, "__esModule", {value: !0});
+    Object.defineProperty(t, "__esModule", { value: !0 });
     var n = a(128),
       s = a.n(n),
       i = a(86),
@@ -96,7 +96,7 @@ webpackJsonp([0], {
           isNoData: !1
         }
       },
-      components: {Pagination: o.a},
+      components: { Pagination: o.a },
       watch: {
         activeLabel: function (e) {
           this.keyword = "", this.totalNum = 0, this.currentPage = 1, this.getIssues()
@@ -175,7 +175,7 @@ webpackJsonp([0], {
         var e = this,
           t = e.$createElement,
           a = e._self._c || t;
-        return a("div", {staticClass: "blog-list-container"}, [e._m(0), e._v(" "), e.isNoData ? e._e() : a("ul", {
+        return a("div", { staticClass: "blog-list-container" }, [e._m(0), e._v(" "), e.isNoData ? e._e() : a("ul", {
           ref: "issueList",
           staticClass: "issue-list"
         }, e._l(e.issues, function (t) {
@@ -185,6 +185,7 @@ webpackJsonp([0], {
           }, [a("router-link", {
             attrs: {
               tag: "a",
+              title: t.title,
               to: {
                 name: "BlogDetail",
                 params: {
@@ -197,15 +198,15 @@ webpackJsonp([0], {
             return a("li", {
               key: t.id,
               staticClass: "tag tag-small",
-              style: {backgroundColor: "#" + t.color},
+              style: { backgroundColor: "#" + t.color },
               on: {
                 click: function (a) {
                   return e.setActiveLabel(t)
                 }
               }
             }, [e._v(e._s(t.name) + "\n        ")])
-          }), 0), e._v(" "), a("span", {staticClass: "time"}, [e._v("\n        " + e._s(e.$moment(t.created_at).format("YYYY-MM-DD HH:mm")) + "\n      ")])], 1)
-        }), 0), e._v(" "), e.isNoData ? a("div", {staticClass: "no-data"}, [a("div"), e._v(" "), a("span", [e._v("该分类下还没有文章哦")])]) : e._e(), e._v(" "), a("div", {staticClass: "bottom-bar"}, [a("input", {
+          }), 0), e._v(" "), a("span", { staticClass: "time" }, [e._v("\n        " + e._s(e.$moment(t.created_at).format("YYYY-MM-DD HH:mm")) + "\n      ")])], 1)
+        }), 0), e._v(" "), e.isNoData ? a("div", { staticClass: "no-data" }, [a("div"), e._v(" "), a("span", [e._v("该分类下还没有文章哦")])]) : e._e(), e._v(" "), a("div", { staticClass: "bottom-bar" }, [a("input", {
           directives: [{
             name: "model",
             rawName: "v-model",
@@ -217,7 +218,7 @@ webpackJsonp([0], {
             type: "text",
             placeholder: "按标题或内容搜索..."
           },
-          domProps: {value: e.keyword},
+          domProps: { value: e.keyword },
           on: {
             keyup: function (t) {
               return !t.type.indexOf("key") && e._k(t.keyCode, "enter", 13, t.key, "Enter") ? null : e.searchIssues()
@@ -232,14 +233,14 @@ webpackJsonp([0], {
             currentPage: e.currentPage,
             pageSize: e.pageSize
           },
-          on: {currentPageChanged: e.handleCurrentPageChanged}
+          on: { currentPageChanged: e.handleCurrentPageChanged }
         })], 1)])
       },
       staticRenderFns: [function () {
         var e = this,
           t = e.$createElement,
           a = e._self._c || t;
-        return a("div", {staticClass: "table-header"}, [a("span", [e._v("名称")]), e._v(" "), a("span", [e._v("创建时间")])])
+        return a("div", { staticClass: "table-header" }, [a("span", [e._v("名称")]), e._v(" "), a("span", [e._v("创建时间")])])
       }]
     }
   },
@@ -249,7 +250,7 @@ webpackJsonp([0], {
         var e = this,
           t = e.$createElement,
           a = e._self._c || t;
-        return a("div", {staticClass: "paginataion-container"}, [a("span", {staticClass: "total-num"}, [e._v("共 " + e._s(e.totalNum) + " 条")]), e._v(" "), a("img", {
+        return a("div", { staticClass: "paginataion-container" }, [a("span", { staticClass: "total-num" }, [e._v("共 " + e._s(e.totalNum) + " 条")]), e._v(" "), a("img", {
           class: 1 === e.lastCurrentPage ? "pre-page-disabled" : "pre-page",
           on: {
             click: function (t) {
@@ -265,8 +266,8 @@ webpackJsonp([0], {
           }],
           ref: "currentPageInput",
           staticClass: "current-page",
-          attrs: {type: "number"},
-          domProps: {value: e.page},
+          attrs: { type: "number" },
+          domProps: { value: e.page },
           on: {
             keyup: function (t) {
               return !t.type.indexOf("key") && e._k(t.keyCode, "enter", 13, t.key, "Enter") ? null : e.handleCurrentPageChanged()
@@ -275,7 +276,7 @@ webpackJsonp([0], {
               t.target.composing || (e.page = t.target.value)
             }
           }
-        }), e._v(" "), a("span", {staticClass: "page-count"}, [e._v("/   " + e._s(e.pageCount))]), e._v(" "), a("img", {
+        }), e._v(" "), a("span", { staticClass: "page-count" }, [e._v("/   " + e._s(e.pageCount))]), e._v(" "), a("img", {
           class: e.lastCurrentPage === e.pageCount ? "next-page-disabled" : "next-page",
           on: {
             click: function (t) {
