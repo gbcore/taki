@@ -13,7 +13,7 @@ webpackJsonp([5], {
   },
   319: function (t, e, s) {
     "use strict";
-    Object.defineProperty(e, "__esModule", {value: !0});
+    Object.defineProperty(e, "__esModule", { value: !0 });
     var r = s(354),
       n = s.n(r),
       o = s(609),
@@ -59,15 +59,15 @@ webpackJsonp([5], {
       }
     }), h.default.prototype.$marked = _.a;
     var A = new h.default({
-        el: "#app",
-        router: $.a,
-        store: w.a,
-        template: "<App/>",
-        components: {App: L.a}
-      }),
+      el: "#app",
+      router: $.a,
+      store: w.a,
+      template: "<App/>",
+      components: { App: L.a }
+    }),
       x = void 0;
     g.a.interceptors.request.use(function (t) {
-      return A.$isGetUserInfo(A, t) || (x = p.a.service({text: "拼命加载中..."})), t
+      return A.$isGetUserInfo(A, t) || (x = p.a.service({ text: "拼命加载中..." })), t
     }, function (t) {
       return n.a.reject(t)
     }), g.a.interceptors.response.use(function (t) {
@@ -82,7 +82,7 @@ webpackJsonp([5], {
     "use strict";
     e.a = [{
       path: "",
-      redirect: {name: "BlogList"}
+      redirect: { name: "BlogList" }
     }, {
       path: "BlogList",
       name: "BlogList",
@@ -109,7 +109,7 @@ webpackJsonp([5], {
       n = s(815),
       o = s(340);
     r.default.use(n.a);
-    var i = new n.a({routes: o.a});
+    var i = new n.a({ routes: o.a });
     e.a = i
   },
   340: function (t, e, s) {
@@ -288,16 +288,16 @@ webpackJsonp([5], {
       },
       getIssues: function (t, e) {
         var s = "";
-        return e.label && e.label.trim().length > 0 && (s = '+label:"' + e.label + '"'), t.$http.get("https://api.github.com/search/issues?q=" + e.keyword + "+state:open+repo:" + t.$store.getters.repo + s + "&sort=created&order=desc&page=" + e.currentPage + "&per_page=" + e.pageSize, {headers: {Accept: "application/vnd.github.v3.html"}})
+        return e.label && e.label.trim().length > 0 && (s = '+label:"' + e.label + '"'), t.$http.get("https://api.github.com/search/issues?q=" + e.keyword + "+state:open+repo:" + t.$store.getters.repo + s + "&sort=created&order=desc&page=" + e.currentPage + "&per_page=" + e.pageSize, { headers: { Accept: "application/vnd.github.v3.html" } })
       },
       getIssue: function (t, e) {
-        return t.$http.get("https://api.github.com/repos/" + t.$store.getters.repo + "/issues/" + e, {headers: {Accept: "application/vnd.github.v3.html"}})
+        return t.$http.get("https://api.github.com/repos/" + t.$store.getters.repo + "/issues/" + e, { headers: { Accept: "application/vnd.github.v3.html" } })
       },
       getComments: function (t, e) {
-        return t.$http.get(e, {headers: {Accept: "application/vnd.github.v3.html"}})
+        return t.$http.get(e, { headers: { Accept: "application/vnd.github.v3.html" } })
       },
       getReadme: function (t) {
-        return t.$http.get("https://raw.githubusercontent.com/" + t.$store.getters.repo + "/master/README.md", {headers: {Accept: "application/vnd.github.v3.html"}})
+        return t.$http.get("https://raw.githubusercontent.com/" + t.$store.getters.repo + "/master/README.md", { headers: { Accept: "application/vnd.github.v3.html" } })
       },
       getAccessToken: function (t, e) {
         var s = t.$store.getters.auth;
@@ -305,10 +305,10 @@ webpackJsonp([5], {
           code: e,
           client_id: s.clientID,
           client_secret: s.clientSecret
-        }, {headers: {Accept: "application/json"}})
+        }, { headers: { Accept: "application/json" } })
       },
       addComment: function (t, e, s) {
-        return t.$http.post(e, {body: s}, {headers: {Authorization: "token " + t.$store.getters.accessToken}})
+        return t.$http.post(e, { body: s }, { headers: { Authorization: "token " + t.$store.getters.accessToken } })
       }
     }
   },
@@ -354,19 +354,19 @@ webpackJsonp([5], {
   },
   346: function (t, e) {
     var s = function (t) {
-        if (t.message) {
-          this.$message({
-            showClose: !0,
-            message: t.message,
-            type: t.type
-          });
-          var e = document.querySelectorAll("div.el-message");
-          if (e && e.length > 0) {
-            var s = e[e.length - 1];
-            "warning" === t.type ? s.style.backgroundColor = "#F7BA2A" : "error" === t.type ? s.style.backgroundColor = "#FF4949" : "success" === t.type ? s.style.backgroundColor = "#13CE66" : s.style.backgroundColor = "#50BFFF"
-          }
+      if (t.message) {
+        this.$message({
+          showClose: !0,
+          message: t.message,
+          type: t.type
+        });
+        var e = document.querySelectorAll("div.el-message");
+        if (e && e.length > 0) {
+          var s = e[e.length - 1];
+          "warning" === t.type ? s.style.backgroundColor = "#F7BA2A" : "error" === t.type ? s.style.backgroundColor = "#FF4949" : "success" === t.type ? s.style.backgroundColor = "#13CE66" : s.style.backgroundColor = "#50BFFF"
         }
-      },
+      }
+    },
       r = function (t) {
         this.$showMessage({
           message: t,
@@ -401,10 +401,10 @@ webpackJsonp([5], {
   },
   347: function (t, e, s) {
     "use strict";
-    Object.defineProperty(e, "__esModule", {value: !0});
+    Object.defineProperty(e, "__esModule", { value: !0 });
     var r = s(32),
       n = function (t) {
-        return t && t.__esModule ? t : {default: t}
+        return t && t.__esModule ? t : { default: t }
       }(r);
     e.default = {
       props: {
@@ -482,7 +482,7 @@ webpackJsonp([5], {
             width: this.width + "px",
             height: this.height + "px",
             bottom: this.bottom + "px",
-            right: this.right + "px",
+            right: this.right + 15 + "px",
             position: "fixed",
             cursor: "pointer",
             "z-index": 999
@@ -541,14 +541,14 @@ webpackJsonp([5], {
   },
   348: function (t, e, s) {
     "use strict";
-    Object.defineProperty(e, "__esModule", {value: !0});
+    Object.defineProperty(e, "__esModule", { value: !0 });
     var r = s(128),
       n = s.n(r),
       o = s(811),
       i = s.n(o),
       a = s(86);
     e.default = {
-      components: {LeftLayout: i.a},
+      components: { LeftLayout: i.a },
       methods: n()({}, s.i(a.a)(["setLabels", "setGitHubUser"])),
       mounted: function () {
         this.$nextTick(function () {
@@ -562,7 +562,7 @@ webpackJsonp([5], {
   },
   349: function (t, e, s) {
     "use strict";
-    Object.defineProperty(e, "__esModule", {value: !0});
+    Object.defineProperty(e, "__esModule", { value: !0 });
     var r = s(128),
       n = s.n(r),
       o = s(86);
@@ -904,7 +904,7 @@ webpackJsonp([5], {
         var t = this,
           e = t.$createElement,
           s = t._self._c || e;
-        return s("div", {staticClass: "app"}, [s("left-layout", {staticClass: "left-container"}), t._v(" "), s("router-view", {staticClass: "main-container"}), t._v(" "), s("bga-back-top", {
+        return s("div", { staticClass: "app" }, [s("left-layout", { staticClass: "left-container" }), t._v(" "), s("router-view", { staticClass: "main-container" }), t._v(" "), s("bga-back-top", {
           attrs: {
             svgMajorColor: "#7b79e5",
             bottom: 90,
@@ -923,10 +923,10 @@ webpackJsonp([5], {
         var t = this,
           e = t.$createElement,
           s = t._self._c || e;
-        return s("div", [s("div", {staticClass: "left-layout-container"}, [s("div", {staticClass: "user-info"}, [t.gitHubUser ? s("img", {
-          attrs: {src: t.gitHubUser.avatar_url},
-          on: {click: t.home}
-        }) : t._e(), t._v(" "), t.gitHubUser ? s("div", {staticClass: "login-name"}, [t._v(t._s(t.gitHubUser.location))]) : t._e(), t._v(" "), t.gitHubUser ? s("div", [t._v(t._s(t.gitHubUser.bio))]) : t._e()]), t._v(" "), s("ul", {staticClass: "other-site"}, t._l(t.thirdPartySite, function (e) {
+        return s("div", [s("div", { staticClass: "left-layout-container" }, [s("div", { staticClass: "user-info" }, [t.gitHubUser ? s("img", {
+          attrs: { src: t.gitHubUser.avatar_url },
+          on: { click: t.home }
+        }) : t._e(), t._v(" "), t.gitHubUser ? s("div", { staticClass: "login-name" }, [t._v(t._s(t.gitHubUser.location))]) : t._e(), t._v(" "), t.gitHubUser ? s("div", [t._v(t._s(t.gitHubUser.bio))]) : t._e()]), t._v(" "), s("ul", { staticClass: "other-site" }, t._l(t.thirdPartySite, function (e) {
           return s("li", {
             key: e.url,
             on: {
@@ -934,14 +934,14 @@ webpackJsonp([5], {
                 return t.openThirdPartySite(e.url)
               }
             }
-          }, [s("img", {attrs: {src: e.img}})])
-        }), 0), t._v(" "), s("ul", {staticClass: "left-menu"}, [s("router-link", {
+          }, [s("img", { attrs: { src: e.img } })])
+        }), 0), t._v(" "), s("ul", { staticClass: "left-menu" }, [s("router-link", {
           class: t.isBlog ? "selected-menu" : "",
           attrs: {
             tag: "li",
-            to: {name: "BlogList"}
+            to: { name: "BlogList" }
           }
-        }, [t._v("自购库")]),], 1), t._v(" "), t.showQQGroup ? s("div", {staticClass: "qq-group"}, [s("span", [t._v("BGA 系列")]), t._v(" "), s("span", [t._v("开源库 QQ 群")]), t._v(" "), s("img", {attrs: {src: "static/img/qq-group.png"}})]) : t._e(), t._v(" "), s("div", {staticClass: "copyright"}, [t._v("© " + t._s(t.copyright))]), t._v(" "), t.recordNumber ? s("div", {staticClass: "copyright"}, [t._v(t._s(t.recordNumber))]) : t._e(), t._v(" "), s("div", {staticClass: "powered"}, [t._v("\n      Theme - "), s("span", {
+        }, [t._v("自购库")]),], 1), t._v(" "), t.showQQGroup ? s("div", { staticClass: "qq-group" }, [s("span", [t._v("BGA 系列")]), t._v(" "), s("span", [t._v("开源库 QQ 群")]), t._v(" "), s("img", { attrs: { src: "static/img/qq-group.png" } })]) : t._e(), t._v(" "), s("div", { staticClass: "copyright" }, [t._v("© " + t._s(t.copyright))]), t._v(" "), t.recordNumber ? s("div", { staticClass: "copyright" }, [t._v(t._s(t.recordNumber))]) : t._e(), t._v(" "), s("div", { staticClass: "powered" }, [t._v("\n      Theme - "), s("span", {
           on: {
             click: function (e) {
               return t.openThirdPartySite("https://github.com/bingoogolapple/bga_issue_blog")
@@ -966,11 +966,11 @@ webpackJsonp([5], {
             expression: "show"
           }],
           style: t.backTopContainerStyle,
-          on: {click: t.startScrollToTop}
+          on: { click: t.startScrollToTop }
         }, [t._t("default", [t.imgCss || t.imgUrl ? s("img", {
           class: t.imgCss,
           style: t.imgStyle,
-          attrs: {src: t.imgUrl}
+          attrs: { src: t.imgUrl }
         }) : s("svg", {
           attrs: {
             width: t.width,
