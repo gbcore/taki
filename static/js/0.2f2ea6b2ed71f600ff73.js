@@ -203,7 +203,7 @@ webpackJsonp([0], {
               }
             }, [e._v(e._s(t.name) + "\n        ")])
           }), 0), e._v(" "), a("span", { staticClass: "time" }, [e._v("\n        " + e._s(e.$moment(t.created_at).format("YYYY-MM-DD HH:mm")) + "\n      ")])], 1)
-        }), 0), e._v(" "), e.isNoData ? a("div", { staticClass: "no-data" }, [a("div"), e._v(" "), a("span", [e._v("该分类下还没有文章哦")])]) : e._e(), e._v(" "), a("div", { staticClass: "bottom-bar" }, [a("input", {
+        }), 0), e._v(" "), e.isNoData ? a("div", { staticClass: "no-data" }, [a("div"), e._v(" "), a("span", [e._v("没有匹配的相应稿件")])]) : e._e(), e._v(" "), a("div", { staticClass: "bottom-bar" }, [a("input", {
           directives: [{
             name: "model",
             rawName: "v-model",
