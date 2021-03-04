@@ -197,7 +197,7 @@ webpackJsonp([5], {
           return t.gitHubUsername
         },
         copyright: function (t) {
-          return "泷組"
+          return "滝組"
         },
         recordNumber: function (t) {
           return t.recordNumber
