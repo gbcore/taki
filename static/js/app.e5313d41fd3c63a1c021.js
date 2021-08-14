@@ -178,7 +178,7 @@ webpackJsonp([5], {
           url: "http://www.aemedia.org"
         }, {
           img: "static/img/nsk.png",
-          url: "https://nsk.gokudobar.monster"
+          url: "https://nsk.gokudobar.top"
         }]
       },
       u = (r = {}, a()(r, "SET_GITHUB_USER", function (t, e) {
