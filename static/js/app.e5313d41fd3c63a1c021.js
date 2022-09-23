@@ -170,10 +170,13 @@ webpackJsonp([5], {
         gitHubUsername: "gbcore",
         copyright: "1970 - 2048",
         recordNumber: "",
-        repo: "gbcore/library.github.io",
+        repo: "gbcore/taki",
         pageSize: 10,
         showQQGroup: !1,
         thirdPartySite: [{
+          img: "static/img/aem.png",
+          url: "http://www.aemedia.org"
+        },{
           img: "static/img/aem.png",
           url: "http://www.aemedia.org"
         }]
