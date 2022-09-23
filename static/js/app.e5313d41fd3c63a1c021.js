@@ -176,9 +176,6 @@ webpackJsonp([5], {
         thirdPartySite: [{
           img: "static/img/aem.png",
           url: "http://www.aemedia.org"
-        }, {
-          img: "static/img/nsk.png",
-          url: "https://nsk.gokudobar.top"
         }]
       },
       u = (r = {}, a()(r, "SET_GITHUB_USER", function (t, e) {

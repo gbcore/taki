@@ -254,7 +254,7 @@ webpackJsonp([1], {
         return n("div", { staticClass: "comment" }, [n("div", { staticClass: "comment-title" }, [n("div", {
           on: {
             click: function (t) {
-              return "taki.gokudobar.top"
+              return "https://gbcore.github.io/taki/"
             }
           }
         },[n("img", {attrs: {src: e.comment.user.avatar_url}})]), e._v(" "), n("span", { staticClass: "time" }, [e._v(e._s(e.$moment(e.comment.created_at).format("YYYY-MM-DD HH:mm")))])]), e._v(" "), n("article", {
