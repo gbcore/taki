@@ -173,13 +173,7 @@ webpackJsonp([5], {
         repo: "gbcore/taki",
         pageSize: 10,
         showQQGroup: !1,
-        thirdPartySite: [{
-          img: "static/img/aem.png",
-          url: "http://www.aemedia.org"
-        },{
-          img: "static/img/aem.png",
-          url: "http://www.aemedia.org"
-        }]
+        thirdPartySite: []
       },
       u = (r = {}, a()(r, "SET_GITHUB_USER", function (t, e) {
         t.gitHubUser = e
